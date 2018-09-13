@@ -1,4 +1,3 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8700/eureka/
+config:
+  server:
+    student-key: Hello, from Config Server
