@@ -1,11 +1,7 @@
-config:
-  server:
-    student-key: Hello, from Config Server
-
 spring:
   data:
     cassandra:
-      keyspace-name: student_service
+      keyspace-name: admission_service
       port: 9042
       contact-points: localhost
       username: cassandra
