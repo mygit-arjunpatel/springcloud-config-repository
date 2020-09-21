@@ -3,10 +3,10 @@ config:
     student-key: Hello, from Config Server
 
 spring:
-  data:
-    cassandra:
-      keyspace-name: student_service
-      port: 9042
-      contact-points: localhost
-      username: cassandra
-      password: cassandra
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: "jdbc:h2:mem:dbtest"
+    username: sa
+    password:
